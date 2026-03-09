@@ -67,4 +67,16 @@ This section has moved here: [https://vitejs.dev/guide/build.html](https://vitej
 
 ### Troubleshooting
 
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)
+This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html){
+  "images": {
+    "logo": "https://cdn.example.com",
+    "background": "https://cdn.example.com"
+  },
+  "videos": {
+    "intro": "https://cdn.example.com"
+  },
+  "documents": {
+    "manual": "https://cdn.example.com"
+  }
+}
+
