@@ -1,11 +1,14 @@
-App.jsx// App.jsx
+// App.jsx
 const data = {
-  "images": {
-    "logo": "https://cdn.example.com/logo.png",
-    "background": "https://cdn.example.com/bg.jpg"
+  images: {
+    logo: "https://cdn.example.com/logo.png",
+    background: "https://cdn.example.com/bg.jpg"
   },
-  "videos": {
-    "intro": "https://cdn.example.com/intro.mp4"
+  videos: {
+    intro: "https://cdn.example.com/intro.mp4"
+  },
+  documents: {
+    manual: "https://cdn.example.com/manual.pdf"
   }
 };
 
@@ -21,7 +24,9 @@ function App() {
       </video>
       
       <br />
-      <a href={data.documents.manual} target="_blank">تحميل الدليل (PDF)</a>
+      <a href={data.documents.manual} target="_blank" rel="noopener noreferrer">
+        تحميل الدليل (PDF)
+      </a>
     </div>
   );
 }
